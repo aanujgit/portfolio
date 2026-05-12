@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0f172a;
+    color:white;
+  }
+  
+  header{
+    text-align:center;
+    padding:60px 20px;
+    background:#1e293b;
+  }
+  
+  header h1{
+    font-size:50px;
+  }
+  
+  section{
+    padding:40px 20px;
+  }
+  
+  h2{
+    color:#38bdf8;
+  }
+  
+  .skill-box{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+  
+  .skill-box span{
+    background:#38bdf8;
+    color:black;
+    padding:10px 15px;
+    border-radius:20px;
+    font-weight:bold;
+  }
+  
+  .card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    margin-top:15px;
+  }
+  
+  a{
+    display:inline-block;
+    margin-right:15px;
+    margin-top:10px;
+    text-decoration:none;
+    color:#38bdf8;
+  }
