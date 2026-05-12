@@ -1,71 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anuj Singh Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anuj Singh | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Anuj Singh</h1>
-    <p>Software Developer</p>
-  </header>
+  <nav>
+    <h2>Anuj.</h2>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>
-      Creative and detail-oriented web developer with strong knowledge of responsive websites and clean UI design.
-    </p>
-  </section>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <section class="skills">
-    <h2>Skills</h2>
-    <div class="skill-box">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>Java</span>
-      <span>Node.js</span>
-      <span>Express.js</span>
-      <span>SQL</span>
-      <span>GitHub</span>
-    </div>
-  </section>
+  <section class="hero">
 
-  <section class="projects">
-    <h2>Projects</h2>
+    <div class="hero-content">
 
-    <div class="card">
-      <h3>Weather App</h3>
+      <h1>
+        Hi, I'm <span>Anuj Singh</span><br>
+        Software Developer
+      </h1>
+
       <p>
-        Responsive weather application using HTML, CSS and JavaScript.
+        Creative and detail-oriented web developer passionate about building responsive,
+        modern and user-friendly websites. Skilled in HTML, CSS, JavaScript,
+        Node.js and GitHub with experience in real-time web applications.
       </p>
+
+      <div class="btns">
+
+        <a href="#projects" class="btn">
+          View Projects
+        </a>
+
+        <a href="resume.pdf" class="btn outline" download>
+          Download Resume
+        </a>
+
+      </div>
+
     </div>
 
   </section>
 
-  <section class="experience">
-    <h2>Experience</h2>
+  <section id="about">
 
-    <div class="card">
+    <h2 class="title">About Me</h2>
+
+    <div class="about-box">
+
+      I am a Computer Science Engineering student at Galgotias University with a strong interest in web development and software engineering. I enjoy creating responsive websites with clean UI and smooth user experiences. Currently, I am improving my frontend and backend development skills while working on real-world projects and learning modern technologies.
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+
+    <h2 class="title">Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Java</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Express.js</div>
+      <div class="skill">SQL</div>
+      <div class="skill">GitHub</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">REST APIs</div>
+
+    </div>
+
+  </section>
+
+  <section id="projects">
+
+    <h2 class="title">Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project-card">
+
+        <div class="project-content">
+
+          <h3>Weather App</h3>
+
+          <p>
+            Built a responsive weather application using HTML, CSS and JavaScript with clean UI design and seamless responsiveness across devices.
+          </p>
+
+          <a href="https://github.com/aanujgit" class="btn">
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="experience">
+
+    <h2 class="title">Experience</h2>
+
+    <div class="experience-card">
+
       <h3>AI-ML Virtual Intern</h3>
-      <p>EduSkills | Oct–Dec 2025</p>
+
+      <p>EduSkills | Oct 2025 - Dec 2025</p>
+
+      <br>
+
+      <p>
+        Worked on scalable AI-driven applications, automated workflows and secure authentication systems while improving performance and optimizing datasets.
+      </p>
+
     </div>
 
   </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
+  <section id="contact">
 
-    <p>Email: anujsingh454568@gmail.com</p>
+    <h2 class="title">Contact</h2>
 
-    <a href="https://github.com/aanujgit" target="_blank">GitHub</a>
+    <div class="contact-container">
 
-    <a href="https://linkedin.com/in/anuj012" target="_blank">LinkedIn</a>
+      <a href="mailto:anujsingh454568@gmail.com">
+        anujsingh454568@gmail.com
+      </a>
+
+      <a href="https://github.com/aanujgit" target="_blank">
+        GitHub Profile
+      </a>
+
+      <a href="https://linkedin.com/in/anuj012" target="_blank">
+        LinkedIn Profile
+      </a>
+
+    </div>
+
   </section>
+
+  <footer>
+    © 2026 Anuj Singh | Portfolio Website
+  </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
